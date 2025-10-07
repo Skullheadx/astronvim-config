@@ -29,4 +29,6 @@ return {
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.editing-support.mini-operators" },
+  { import = "astrocommunity.search.grug-far-nvim" },
 }
