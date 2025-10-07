@@ -13,7 +13,7 @@ vim.keymap.set("n", "<A-j>", "<Cmd>TmuxNavigateDown<CR>", { silent = true })
 vim.keymap.set("n", "<A-k>", "<Cmd>TmuxNavigateUp<CR>", { silent = true })
 vim.keymap.set("n", "<A-l>", "<Cmd>TmuxNavigateRight<CR>", { silent = true })
 
-vim.keymap.set("n", "<leader>r", "<cmd>GrugFar<cr>", { desc = "Find & Replace (GrugFar)" })
+-- vim.keymap.set("n", "<leader>r", "<cmd>GrugFar<cr>", { desc = "Find & Replace (GrugFar)" })
 
 -- Start OPEN, then you choose what to close
 vim.opt.foldenable = true

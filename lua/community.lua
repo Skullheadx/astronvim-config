@@ -31,4 +31,7 @@ return {
   { import = "astrocommunity.editing-support.mini-operators" },
   { import = "astrocommunity.search.grug-far-nvim" },
   { import = "astrocommunity.editing-support.nvim-origami" },
+  -- { import = "astrocommunity.motion.hop-nvim" },
+  { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.flit-nvim" },
 }
