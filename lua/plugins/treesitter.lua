@@ -8,6 +8,12 @@ return {
     ensure_installed = {
       "lua",
       "vim",
+      "go",
+      "gomod",
+      "gowork",
+      "regex",
+      "comment",
+      "query",
       -- add more arguments for adding more treesitter parsers
     },
   },
