@@ -34,4 +34,5 @@ return {
   -- { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.flit-nvim" },
+  { import = "astrocommunity.recipes.auto-session-restore" },
 }
