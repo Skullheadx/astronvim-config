@@ -15,23 +15,23 @@ vim.keymap.set("n", "<A-l>", "<Cmd>TmuxNavigateRight<CR>", { silent = true })
 
 -- vim.keymap.set("n", "<leader>r", "<cmd>GrugFar<cr>", { desc = "Find & Replace (GrugFar)" })
 
--- Start OPEN, then you choose what to close
-vim.opt.foldenable = true
-vim.opt.foldlevel = 99
-vim.opt.foldlevelstart = 99
-
--- Make folds less trigger-happy
-vim.opt.foldminlines = 2 -- ignore teeny tiny blocks; try 3–5 if you like
-vim.opt.foldnestmax = 6 -- don't go crazy with deep nesting
-vim.opt.foldcolumn = "auto:3" -- visual gutter to see fold levels (Neovim ≥0.10)
-
--- Recompute folds after parser/LSP attach (prevents "everything looks folded")
-vim.api.nvim_create_autocmd({ "BufReadPost", "FileReadPost" }, {
-  pattern = { "*.go" },
-  callback = function()
-    vim.schedule(function()
-      vim.cmd "silent! normal! zx" -- rebuild fold info
-      vim.cmd "silent! normal! zR" -- open all by default
-    end)
-  end,
-})
+-- -- Start OPEN, then you choose what to close
+-- vim.opt.foldenable = true
+-- vim.opt.foldlevel = 99
+-- vim.opt.foldlevelstart = 99
+--
+-- -- Make folds less trigger-happy
+-- vim.opt.foldminlines = 2 -- ignore teeny tiny blocks; try 3–5 if you like
+-- vim.opt.foldnestmax = 6 -- don't go crazy with deep nesting
+-- vim.opt.foldcolumn = "auto:3" -- visual gutter to see fold levels (Neovim ≥0.10)
+--
+-- -- Recompute folds after parser/LSP attach (prevents "everything looks folded")
+-- vim.api.nvim_create_autocmd({ "BufReadPost", "FileReadPost" }, {
+--   pattern = { "*.go" },
+--   callback = function()
+--     vim.schedule(function()
+--       vim.cmd "silent! normal! zx" -- rebuild fold info
+--       vim.cmd "silent! normal! zR" -- open all by default
+--     end)
+--   end,
+-- })
