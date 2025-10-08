@@ -132,6 +132,19 @@ return {
     init = function() vim.g.bullets_enabled_file_types = { "markdown", "text" } end,
   },
 
+  {
+    "manuuurino/autoread.nvim",
+    cmd = "Autoread",
+    opts = {
+      -- Check interval in milliseconds
+      interval = 500,
+      -- Show notifications when files change
+      notify_on_change = true,
+      -- How to handle cursor position after reload: "preserve", "scroll_down", or "none"
+      cursor_behavior = "preserve",
+    },
+  },
+
   -- == Examples of Overriding Plugins ==
 
   -- customize dashboard options
