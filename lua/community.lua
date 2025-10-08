@@ -37,5 +37,5 @@ return {
   --   { import = "astrocommunity.scrolling.cinnamon-nvim" },
   { import = "astrocommunity.motion.nvim-spider" },
   { import = "astrocommunity.scrolling.mini-animate" },
-  { import = "astrocommunity.workflow.precognition-nvim" },
+  -- { import = "astrocommunity.workflow.precognition-nvim" },
 }
