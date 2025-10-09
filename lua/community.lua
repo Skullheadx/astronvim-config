@@ -32,7 +32,7 @@ return {
   { import = "astrocommunity.search.grug-far-nvim" },
   --  { import = "astrocommunity.editing-support.nvim-origami" },
   { import = "astrocommunity.motion.leap-nvim" },
-  { import = "astrocommunity.motion.flit-nvim" },
+  -- { import = "astrocommunity.motion.flit-nvim" }, --  TODO: make this not glitchy in floating terminal.
   { import = "astrocommunity.recipes.auto-session-restore" },
   --   { import = "astrocommunity.scrolling.cinnamon-nvim" },
   { import = "astrocommunity.motion.nvim-spider" },
