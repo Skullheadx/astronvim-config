@@ -13,6 +13,7 @@ return {
     event = "BufRead",
     config = function() require("lsp_signature").setup() end,
   },
+
   {
     "chrisgrieser/nvim-origami",
     event = "VeryLazy",
@@ -131,19 +132,7 @@ return {
     ft = { "markdown", "text" },
     init = function() vim.g.bullets_enabled_file_types = { "markdown", "text" } end,
   },
-
-  {
-    "manuuurino/autoread.nvim",
-    cmd = "Autoread",
-    opts = {
-      -- Check interval in milliseconds
-      interval = 500,
-      -- Show notifications when files change
-      notify_on_change = true,
-      -- How to handle cursor position after reload: "preserve", "scroll_down", or "none"
-      cursor_behavior = "preserve",
-    },
-  },
+  { "diogo464/hotreload.nvim", opts = { interval = 500 } },
 
   -- == Examples of Overriding Plugins ==
 
@@ -181,7 +170,7 @@ return {
   },
 
   -- You can disable default plugins as follows:
-  { "max397574/better-escape.nvim", enabled = false },
+  -- { "max397574/better-escape.nvim", enabled = false },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {

@@ -38,4 +38,6 @@ return {
   { import = "astrocommunity.motion.nvim-spider" },
   { import = "astrocommunity.scrolling.mini-animate" },
   -- { import = "astrocommunity.workflow.precognition-nvim" },
+  -- { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
+  { import = "astrocommunity.completion.avante-nvim" },
 }
