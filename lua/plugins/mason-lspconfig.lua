@@ -2,7 +2,7 @@
 
 ---@type LazySpec
 return {
-  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
   enabled = false,
   -- -- use mason-tool-installer for automatically installing Mason packages
   -- {

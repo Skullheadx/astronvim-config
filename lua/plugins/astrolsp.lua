@@ -1,4 +1,3 @@
-
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 -- Configuration documentation can be found with `:h astrolsp`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -38,6 +37,53 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
+      -- Bash
+      "bashls",
+
+      -- C / C++
+      "clangd",
+
+      -- Docker
+      "dockerls",
+
+      -- Go
+      "gopls",
+      "golangci_lint_ls", -- sometimes "golangci_lint_ls" or "golangci-lint-langserver"
+
+      -- HTML / CSS / Emmet
+      "html",
+      "cssls",
+      "emmet_ls",
+
+      -- JSON
+      "jsonls",
+
+      -- Lua
+      "lua_ls",
+
+      -- Markdown
+      "marksman",
+
+      -- Nix
+      "nixd",
+
+      -- Python
+      "basedpyright",
+      "ruff",
+
+      -- SQL
+      "sqls",
+
+      -- TypeScript / JavaScript / Deno
+      "vtsls", -- or "tsserver" if using vanilla TypeScript server
+      "denols",
+
+      -- YAML
+      "yamlls",
+
+      -- Zig
+      "zls",
+
       -- "pyright"
     },
     -- customize language server configuration options passed to `lspconfig`
