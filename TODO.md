@@ -11,3 +11,28 @@
 - [ ] fix toggle term
 - [ ] fix auto save
 - [ ] Fix hot reload when file changes outside neovim
+
+
+
+
+# lsps, treesitters, formatters, linters, debuggers
+
+| pack | treesitter parser | language server | formatter | linter | debugger | concern? |
+|------|-------------------|-----------------|-----------|--------|----------|----------|
+| bash | bash | bashls | shfmt | shellcheck | bash | |
+| cpp  | cpp,c,objc,cuda,proto | clangd | clang-format |  |  | |
+| docker | dockerfile | docker-language-server |  | hadolint |  | |
+| fish | fish |  | fish_indent | fish |  | |
+| go,golangci-lint | go | gopls,golangci-lint-langserver | gofumpt | golangci-lint |  | * |
+| html-css | html,css | html,css,emmet_ls |  |  |  | |
+| json | json,jsonc | jsonls |  |  | | |
+| lua | lua | lua_ls | stylua | selene | | |
+| markdown | markdown,markdown_inline | marksman |  |  |  | |
+| nix | nix | nixd |  |  |  | |
+| python | python,toml | basedpyright,ruff_lsp |  | | debugpy | |
+| sql | sql | sqls |  |  |  | |
+| typescript-all-in-one | typescript,javascript,tsx,jsdoc | denols,vtsls |  |  |  | |
+| yaml | yaml | yamlls |  |  |  | |
+| zig | zig | zls |  |  |  | |
+
+

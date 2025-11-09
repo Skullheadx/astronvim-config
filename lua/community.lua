@@ -29,7 +29,8 @@ return {
   { import = "astrocommunity.pack.fish" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.hyprlang" },
+  { import = "astrocommunity.pack.yaml" },
+
   -- { import = "astrocommunity.pack.harper" },
   --  { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.conform-nvim" },
