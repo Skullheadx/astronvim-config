@@ -22,7 +22,7 @@
 | bash | bash | bashls | shfmt | shellcheck | bash | |
 | cpp  | cpp,c,objc,cuda,proto | clangd | clang-format |  |  | |
 | docker | dockerfile | docker-language-server |  | hadolint |  | |
-| fish | fish |  | fish_indent | fish |  | |
+| fish | fish |  | fish_indent | fish |  |* missing fish_indent |
 | go,golangci-lint | go | gopls,golangci-lint-langserver | gofumpt | golangci-lint |  | * |
 | html-css | html,css | html,css,emmet_ls |  |  |  | |
 | json | json,jsonc | jsonls |  |  | | |
